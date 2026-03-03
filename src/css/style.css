@@ -35,9 +35,13 @@ body {
     border: 2px solid #9443d8;
 }
 
-.cabecalho .menu li a {
+.cabecalho .menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho .menu ul li a {
     font-size: 20px;
-    text-transform: capitalize;
     padding: 10px 20px;
     transition: 0.2s ease-in-out;
 }
@@ -114,6 +118,30 @@ body {
     /* background: linear-gradient(to right, #8a35c8, #18c063, #00eea2); */
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
+}
+
+.habilidades .titulo {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container-habilidades {
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-habilidades .logo i {
+    font-size: 8rem;
+    width: 100px;
+    height: 100px;
+    
 }
 
 .projetos {
