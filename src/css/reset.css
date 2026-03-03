@@ -11,6 +11,11 @@ a {
     color: #ffffff;
 }
 
+/* li {
+    display: inline;
+} */
+
+
 ul {
     list-style-type: none;
 }
