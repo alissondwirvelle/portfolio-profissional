@@ -165,6 +165,10 @@ body {
     transform: scale(1.1);
 }
 
+.projetos {
+    padding: 50px 0;
+}
+
 .projetos .titulo {
     text-align: center;
     padding: 100px 0;
