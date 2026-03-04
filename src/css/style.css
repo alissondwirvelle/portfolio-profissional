@@ -158,6 +158,11 @@ body {
     font-size: 8rem;
     width: 100px;
     height: 100px;
+    transition: 0.3s;
+}
+
+.container-habilidades .logo i:hover {
+    transform: scale(1.1);
 }
 
 .projetos {
