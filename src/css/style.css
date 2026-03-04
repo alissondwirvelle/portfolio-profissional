@@ -82,6 +82,22 @@ body {
     margin-bottom: 20px;
 }
 
+.btn-cv {
+    margin-bottom: 25px;
+}
+
+.botao-cv {
+    background-color: #43bd8e;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.botao-cv:hover {
+    background-color: #FD6C22;
+}
+
 .home .redes-sociais {
     display: flex;
     gap: 20px;
@@ -122,7 +138,7 @@ body {
 
 .habilidades .titulo {
     text-align: center;
-    padding: 60px 0;
+    padding: 100px 0;
     font-size: 45px;
     font-weight: 500;
     text-transform: uppercase;
@@ -135,13 +151,13 @@ body {
     margin-bottom: 20px;
     justify-content: center;
     text-align: center;
+    font-size: 2rem;
 }
 
 .container-habilidades .logo i {
     font-size: 8rem;
     width: 100px;
     height: 100px;
-    
 }
 
 .projetos {
@@ -150,7 +166,7 @@ body {
 
 .projetos .titulo {
     text-align: center;
-    padding: 60px 0;
+    padding: 100px 0;
     font-size: 45px;
     font-weight: 500;
     text-transform: uppercase;
