@@ -1,0 +1,28 @@
+.habilidades .titulo {
+    text-align: center;
+    padding: 100px 0;
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container-habilidades {
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container-habilidades .logo i {
+    font-size: 8rem;
+    width: 100px;
+    height: 100px;
+    transition: 0.3s;
+}
+
+.container-habilidades .logo i:hover {
+    transform: scale(1.1);
+}
