@@ -1,9 +1,10 @@
 .footer {
-    padding: 60px 20px;
+    padding: 70px 0px;
+    background-color: #5f0a94;
 }
 
 .footer-container {
-    max-width: 1200px;
+    max-width: 1120px;
     margin: 0 auto;
     text-align: center;
 }
