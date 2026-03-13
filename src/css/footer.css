@@ -1,5 +1,5 @@
 .footer {
-    padding: 70px 0px;
+    padding: 50px 20px;
     background-color: #5f0a94;
 }
 
@@ -10,10 +10,28 @@
 }
 
 .footer-container h2 {
-    margin-bottom: 25px;
-    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
     letter-spacing: 2px;
     font-weight: 700;
+}
+
+.footer-container p {
+    margin-bottom: 25px;
+}
+
+.footer-container .redes-sociais ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espaço entre os ícones */
+
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px; /* espaço antes do copyright */
+}
+
+.copyrigth {
+    margin-top: 10px;
 }
 
 .footer-container .redes-sociais ul {
